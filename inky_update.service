@@ -1,0 +1,8 @@
+[Unit]
+Description=Update inky/pHAT display depending on the status of Psion MC400 related services
+
+[Service]
+ExecStart=/home/pi/inky_update/inky_update.sh
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,12 @@
+[Unit]
+Description=Display Psion logo on inky display before shutdown
+
+[Service]
+Type=oneshot
+RemainAfterExit=true
+ExecStart=/bin/true
+ExecStop=/home/pi/inky_update/inky_shutdown.sh
+TimeoutSec=infinity
+
+[Install]
+WantedBy=multi-user.target
