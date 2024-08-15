@@ -26,8 +26,8 @@ while true; do
     PSI_STAT_T="0"
   fi
 
-  #  test is connected to internet
-  if ping -q -c 1 -W 1 google.com >/dev/null
+  #  test if connected to internet
+  if ping -q -c 1 -W 1 google.com >/dev/null 2>&1
   then
     PSI_STAT_I="1"
   else
@@ -44,6 +44,6 @@ while true; do
     echo "`date`: "$PREV_STATE" "$PSI_STATUS >> /home/pi/inky_update/states.txt
   fi
 
-  sleep 17
+  sleep 77
 
 done
