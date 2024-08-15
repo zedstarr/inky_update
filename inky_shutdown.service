@@ -1,5 +1,6 @@
 [Unit]
 Description=Display Psion logo on inky display before shutdown
+RequiresMountsFor=/home
 
 [Service]
 Type=oneshot
