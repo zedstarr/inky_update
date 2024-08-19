@@ -10,4 +10,4 @@ Only when a status change is detected is the display updated.
 
 "inky-shutdown" service displays the Psion logo just before shutdown ensuring the Pi is Psion'd whislt it's off ;-) 
 
-
+![Psion logo displayed after shutdown of the Pi](https://zedstarr.com/wp-content/uploads/2024/08/20240809_171106.jpg)
