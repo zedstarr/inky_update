@@ -27,7 +27,7 @@ while true; do
   fi
 
   #  test if connected to internet
-  test=$(/home/pi/test_conn.sh)
+  test=$(/home/pi/src/inky_update/test_conn.sh)
   if [ "$test" = "we have connectivity" ] 
   then
     PSI_STAT_I="1"
